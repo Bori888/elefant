@@ -1,0 +1,45 @@
+body{
+	background-color:purple;/*háttérszín*/
+	color:white;/*betűszín*/
+	margin:0;/*margó*/
+	text-align:justify;/*szöveg igazitása:sorkizárt*/
+}
+#tarolo{
+	border: 5px solid orange;/*keret: vastagság, stilus, szín*/
+	padding:10px;/* elem és a keret között belsőköz*/
+	background-color:beige;/*háttér szin*/
+	width:80%;/*tárolo div szélesség*/
+	max-width:700px;/* max 700px a szélleség*/
+	margin:auto;/* oldal kozepére ig.*/
+}
+.elem {
+	border:1px solid darkgray;/**/ 
+	background-color:blue;
+	padding:5px;/*belső margó*/
+	margin-bottom:10px;/*alsó margó*/
+}
+.kiemel{
+	color: red;
+}
+a {
+	color: yellow;
+}
+.menu a {
+	color: green;
+	text-decoration: none;/*aláhuzás ne legyen*/
+	border:1px solid red;
+	padding:5px;
+	border-radius:10px;/* a keret kerek legyen*/
+	background-color: white;
+	
+}
+.menu a:hover {/*az egeret ha rá viszed*/
+	color: red;
+	background-color: black;
+	
+}
+.menu a:active {
+	color: red;
+	background-color: white;
+	
+}

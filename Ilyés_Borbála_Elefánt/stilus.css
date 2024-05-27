@@ -1,0 +1,93 @@
+body {
+	background-image: url("hatterem3.jpg");
+	font-family: Verdan;
+	color: #272f32;
+	background-color:#272f32 ;
+	margin: 10px;
+	
+}
+
+img {
+		width:300px;
+		border: 2px solid black;
+		padding: 5px;
+		margin: 5px;
+}
+		
+h1{
+	letter-spacing: 5px; 
+	font-family:Showcard Gothic;
+		
+}
+
+h2 {
+	font-family:Showcard Gothic;
+}
+
+p {
+	
+	text-align:justify;
+	margin: 12pt 0px;
+	padding: 8pt;
+	
+}
+.elem {
+	
+	padding:5px;
+	margin-bottom:10px;
+	border-bottom: 2px solid black; 
+	font-family:Showcard Gothic;
+}
+
+.egyik {
+	float:left;
+}
+
+.masik{
+	float:right;
+}
+
+.harmadik {
+	float:left;
+}
+
+.torol {
+	clear:both;
+}
+
+#tarolo {
+	border: 5px solid #282829;
+	padding:10px;
+	background-color: white;
+	width: 80%;
+	max-width: 700px;
+	margin:auto; /*oldal közepére igazit*/
+}
+
+.kiemel {
+	color: red;
+}
+
+a {
+	color:#EA526E;
+}
+
+.menu a {
+	color:black;
+	text-decoration:none;
+	border: 1px solid #CFB0F2;
+	padding: 5px;
+	border-radius:10px;
+	background-color: white;
+	
+}
+
+.menu a:hover {
+	background-color:pink;
+	color: black;
+}
+
+.menu a:active {
+	background-color:red;
+	color:white;
+}
